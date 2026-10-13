@@ -1,0 +1,115 @@
+<!DOCTYPE html> <!--Declare doctype as html5-->
+<html>
+
+<head>
+<!--character encoding to display Unicode symbols properly-->
+<meta charset="UTF-8">
+<!--setting viewport to make website look good on all devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<meta name="description" content="Julz Tech portfolio">
+<meta name="keywords" content="Julz, portfolio">
+<meta name="author" content="Julz RS">
+
+<style> body{font-family:'Courier New', Courier, monospace; color:antiquewhite; background-color:darkslategray;} 
+a {
+  color: whitesmoke;
+  background-color: rgb(1, 34, 34);
+  font-weight: bold;
+}
+</style>
+
+<title>Julz Tech portfolio</title>
+</head>
+ 
+<body>
+      <!-- ============================================================
+       HEADER: Site title and main navigation
+       ============================================================ -->
+    <header> 
+<h1 style="color:white; font-family: 'Courier New', monospace; background-color:teal; line-height:2.5;">Julz Roa Serdan</h1>
+<h2><strong>Aspiring Web Developer & Designer</strong></h2>
+<h3>
+<nav>
+    <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills and Hobbies</a></li>
+        <li><a href="#projects">My Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    </nav>
+</h3>
+<br>
+<hr> <!-- Horizontal rule -->
+    </header>
+
+<main> <!-- Main content of the page -->
+    
+        <!-- ============================================================
+         SECTION 1: ABOUT
+         ============================================================ -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="img_tux.png" alt="Julz RS in tux+glasses" style="width:300px;height:300px;">
+        <p>Hello! I'm Julz RS, an aspiring web developer and designer. 
+            <br>I have a passion for creating beautiful and functional websites including dashboard and data analysis. 
+            <br>I enjoy learning new technologies and improving my skills in web development.
+            <br>Currently, I'm studying DAAIT-1A in UC to enhance my knowledge on AI technologies and integrating them into web development projects.</p>
+    </section>
+<hr>
+
+        <!-- ============================================================
+         SECTION 2: SKILLS AND HOBBIES
+         ============================================================ -->
+    <section id="skills">
+        <h2>Skills and Hobbies</h2>
+        <ul>
+            <li>Skills: 
+                <ol>
+                    <li>Problem solving and communication</li>
+                    <li>Data visualization and Statistical analysis</li>
+                    <li>Attention to details</li>
+                </ol>
+            </li>
+            <li>Hobbies: 
+                <ol>
+                    <li>Coding/programming/AI</li>
+                    <li>PC repair and maintenance</li>
+                    <li>Playing MOBA games (DOTA2, Heroes of Newerth)</li>
+                </ol>
+            </li>
+        </ul>
+        </section>
+<hr>
+
+            <!-- ============================================================
+         SECTION 3: PROJECTS
+         ============================================================ -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <ul>
+            <li><a href="http://www.Dangpanan.com">Dangpanan | Rentals, Hotels, Condos</a></li>
+            <li><a href="#">Dashboard </a></li>
+        </ul>
+    </section>
+<hr>
+
+        <!-- ============================================================
+         SECTION 4: CONTACT
+         ============================================================ -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me below: <br>Mobile 0945-352-6979</p>
+        
+      <address>
+        Email: <a href="mailto:julieboyannzel@gmail.com">julzRS@gmail.com</a><br>
+        GitHub: <a href="https://github.com/julzRS">github.com/julzRS</a><br>
+        LinkedIn: <a href="https://ph.linkedin.com/in/julius-serdan-144b2530" target="_blank" rel="noopener noreferrer">linkedin.com/in/julzRS</a>
+      </address>
+
+      <p><a href="#top">Back to top</a></p>
+    </section>
+<hr>
+</body>
+
+</html>
